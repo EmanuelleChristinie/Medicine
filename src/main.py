@@ -1,5 +1,6 @@
 from medicine_manager import MedicineManager
 
+
 def main():
     manager = MedicineManager()
     print("--- Sistema de Controle de Medicamentos ---")
@@ -9,7 +10,7 @@ def main():
         print("2. Listar Medicamentos")
         print("3. Remover Medicamento")
         print("4. Sair")
-        
+
         choice = input("Escolha uma opção: ")
 
         if choice == "1":
@@ -39,6 +40,7 @@ def main():
 
         elif choice == "4":
             break
+
 
 if __name__ == "__main__":
     main()

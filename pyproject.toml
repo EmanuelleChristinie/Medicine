@@ -1,0 +1,11 @@
+[project]
+name = "med-control"
+version = "1.0.0"
+description = "Sistema simples de controle de medicamentos para idosos"
+dependencies = [
+    "pytest>=7.0.0",
+    "flake8>=6.0.0"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

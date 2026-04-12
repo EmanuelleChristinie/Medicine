@@ -1,5 +1,7 @@
 # 💊 MedControl — Gestão de Medicamentos para Idosos
 
+[![Python CI](https://github.com/EmanuelleChristinie/Medicine/actions/workflows/ci.yml/badge.svg)](https://github.com/EmanuelleChristinie/Medicine/actions)
+
 **Versão:** 1.0.0
 
 ## 🎯 Sobre o Projeto

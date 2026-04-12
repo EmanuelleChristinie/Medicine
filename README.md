@@ -1,30 +1,46 @@
-# MedControl - 1.0.0
+# 💊 MedControl — Gestão de Medicamentos para Idosos
 
-**Problema:** Dificuldade de idosos em gerenciar horários de múltiplos medicamentos.
-**Solução:** Uma CLI simples para cadastrar e listar horários de remédios.
-## 🚀 Funcionalidades Principais
-* **Cadastro de Medicamentos:** Registro de nome, dosagem e horário.
-* **Listagem Organizada:** Visualização clara de todos os remédios agendados.
-* **Remoção Segura:** Exclusão de itens da lista após a conclusão do tratamento.
-* **Validação de Dados:** Sistema que impede registros vazios ou entradas inválidas.
+**Versão:** 1.0.0
 
-## 🛠️ Tecnologias Utilizadas
-* **Linguagem:** [Python](https://www.python.org/)
-* **Testes:** [Pytest](https://docs.pytest.org/)
-* **Linting/Qualidade:** [Flake8](https://flake8.pycqa.org/)
-* **CI/CD:** [GitHub Actions](https://github.com/features/actions)
+## 🎯 Sobre o Projeto
 
-## 📋 Requisitos de Engenharia de Software (Atendidos)
-Este projeto foi construído seguindo rigorosas boas práticas de desenvolvimento moderno:
-* **Versionamento Semântico:** Uso do padrão `MAJOR.MINOR.PATCH` (v1.0.0).
-* **Análise Estática:** Verificação de estilo de código automatizada.
-* **Integração Contínua:** Pipeline que executa testes e linter a cada `push`.
-* **Documentação Estruturada:** README completo para reprodutibilidade.
+* **O Problema (Dor Real):** A dificuldade de idosos e cuidadores no gerenciamento de múltiplas medicações diárias. O esquecimento ou a confusão de horários é um problema crítico que compromete tratamentos de saúde e causa ansiedade em famílias.
+* **A Solução:** O **MedControl** é uma aplicação de linha de comando (CLI) simples e direta que permite cadastrar medicamentos com suas respectivas dosagens e horários, permitindo uma consulta rápida e organização segura da rotina de saúde.
+* **Público-alvo:** Idosos, familiares e cuidadores que buscam uma ferramenta leve, sem anúncios e de fácil operação para controle de remédios.
 
-## Como rodar
-1. Instale as dependências: `pip install -r requirements.txt` (ou os pacotes do pyproject)
-2. Execute: `python src/main.py`
+## 🛠 Tecnologias Utilizadas
 
-## Testes e Qualidade
-- Rodar testes: `pytest`
-- Rodar linter: `flake8 src/`
+| Categoria | Tecnologia |
+| :--- | :--- |
+| **Linguagem** | Python 3.10+ |
+| **Interface** | CLI (Terminal) |
+| **Testes** | Pytest |
+| **Qualidade** | Flake8 (Linting) |
+| **CI/CD** | GitHub Actions |
+
+## ⚙️ Como Executar
+
+### 1. Instalação
+
+Certifique-se de ter o **Python** instalado em sua máquina. Clone o repositório e acesse a pasta:
+
+```bash
+git clone [https://github.com/EmanuelleChristinie/Medicine.git](https://github.com/EmanuelleChristinie/Medicine.git)
+cd Medicine
+
+2. Execução
+Para iniciar o sistema e acessar o menu interativo:
+
+Bash
+python src/main.py
+3. Testes e Lint
+Bash
+# Executa os testes automatizados (validação de regras de negócio e erros)
+pytest
+
+# Executa a verificação estática do código (Garantia de código limpo)
+flake8 src/
+👨‍💻 Autora
+Desenvolvido por Emanuelle Christinie Ribeiro de Oliveira para o Bootcamp de Engenharia de Software — Universidade CEUB.
+
+🔗 github.com/EmanuelleChristinie/Medicine

@@ -1,4 +1,5 @@
 [flake8]
 max-line-length = 88
-extend-ignore = E203, E302, E305, W293, W292
+# Adicionamos os códigos dos erros que apareceram no seu print
+ignore = E302, E305, W292, W293
 exclude = .git,__pycache__,docs,old,build,dist

@@ -31,12 +31,15 @@ def main():
                 print(f"{i}. {m['name']} - {m['dosage']} às {m['time']}")
 
         elif choice == "3":
-            idx = int(input("Índice do medicamento para remover: "))
-            removed = manager.remove_medicine(idx)
-            if removed:
-                print(f"Removido: {removed['name']}")
-            else:
-                print("Índice inválido.")
+            try:
+                idx = int(input("Índice do medicamento para remover: "))
+                removed = manager.remove_medicine(idx)
+                if removed:
+                    print(f"Removido: {removed['name']}")
+                else:
+                    print("Índice inválido.")
+            except ValueError:
+                print("Por favor, digite um número válido.")
 
         elif choice == "4":
             break

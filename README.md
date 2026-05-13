@@ -2,7 +2,7 @@
 
 [![Python CI](https://github.com/EmanuelleChristinie/Medicine/actions/workflows/ci.yml/badge.svg)](https://github.com/EmanuelleChristinie/Medicine/actions)
 
-**Versão:** 1.0.0
+**Versão:** 1.1.0
 
 ## 🎯 Sobre o Projeto
 

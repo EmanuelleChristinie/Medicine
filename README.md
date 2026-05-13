@@ -48,6 +48,12 @@ pytest
 # Executa a verificação estática do código (garantia de código limpo)
 flake8 src/
 ```
+## 🚀 Funcionalidades Entregues
+CRUD de Medicamentos: Adicionar, listar e remover remédios.
+
+Integração ViaCEP: Consulta de endereços em tempo real dentro da aplicação.
+
+Pipeline CI: Validação automatizada a cada novo código enviado ao GitHub.
 
 ## 👩‍💻 Autora
 

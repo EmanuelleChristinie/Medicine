@@ -2,7 +2,7 @@
 
 [![Python CI](https://github.com/EmanuelleChristinie/Medicine/actions/workflows/ci.yml/badge.svg)](https://github.com/EmanuelleChristinie/Medicine/actions)
 
-**Versão:** 1.0.0
+**Versão:** 1.1.0
 
 ## 🎯 Sobre o Projeto
 
@@ -48,6 +48,12 @@ pytest
 # Executa a verificação estática do código (garantia de código limpo)
 flake8 src/
 ```
+## 🚀 Funcionalidades Entregues
+CRUD de Medicamentos: Adicionar, listar e remover remédios.
+
+Integração ViaCEP: Consulta de endereços em tempo real dentro da aplicação.
+
+Pipeline CI: Validação automatizada a cada novo código enviado ao GitHub.
 
 ## 👩‍💻 Autora
 

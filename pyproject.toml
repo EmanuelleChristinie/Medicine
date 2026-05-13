@@ -1,10 +1,11 @@
 [project]
 name = "med-control"
-version = "1.0.0"
-description = "Sistema simples de controle de medicamentos para idosos"
+version = "1.1.0"
+description = "Sistema de controle de medicamentos com integração de endereço via CEP"
 dependencies = [
     "pytest>=7.0.0",
-    "flake8>=6.0.0"
+    "flake8>=6.0.0",
+    "requests>=2.31.0"
 ]
 
 [tool.pytest.ini_options]

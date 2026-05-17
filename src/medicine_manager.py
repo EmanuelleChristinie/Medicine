@@ -31,6 +31,15 @@ class MedicineManager:
                 if "erro" in dados:
                     return "CEP não encontrado."
                 return f"{dados.get('logradouro', 'Sem logradouro')}, {dados.get('bairro', 'Sem bairro')} - {dados.get('localidade', 'Sem cidade')}/{dados.get('uf', '??')}"
+                
+                # Linha 33 corrigida para evitar o erro"
+                logradouro = dados.get('logradouro', 'Sem logradouro')
+                bairro = dados.get('bairro', 'Sem bairro')
+                cidade = dados.get('localidade', 'Sem cidade')
+                uf = dados.get('uf', '??')
+                
+                return f"{logradouro}, {bairro} - {cidade}/{uf}"
+            
             return "Erro na consulta da API."
         except Exception:
             return "Falha na conexão com o serviço de CEP."

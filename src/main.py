@@ -9,7 +9,8 @@ def main():
         print("\n1. Adicionar Medicamento")
         print("2. Listar Medicamentos")
         print("3. Remover Medicamento")
-        print("4. Sair")
+        print("4. Buscar Endereço por CEP")
+        print("5. Sair")
 
         choice = input("Escolha uma opção: ")
 
@@ -42,6 +43,16 @@ def main():
                 print("Por favor, digite um número válido.")
 
         elif choice == "4":
+            cep = input("Digite o CEP (somente números): ")
+            print("Buscando informações na nuvem...")
+            # Chama a função que integra com a API ViaCEP
+            resultado = manager.buscar_cep(cep)
+            print("-" * 40)
+            print(resultado)
+            print("-" * 40)
+
+        elif choice == "5":
+            print("Encerrando o sistema. Até logo!")
             break
 
 
